@@ -1,1 +1,21 @@
-
+{
+  "name": "ju-registration-bot",
+  "version": "1.0.0",
+  "description": "JU Registration Bot with Firebase",
+  "main": "api/bot.js",
+  "scripts": {
+    "dev": "nodemon api/bot.js",
+    "start": "node api/bot.js",
+    "setup": "node scripts/setup.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "firebase-admin": "^12.0.0",
+    "node-cron": "^3.0.3",
+    "json2csv": "^6.1.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
