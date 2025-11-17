@@ -1,1 +1,27 @@
-
+{
+  "welcome": "🎉 Welcome to JU Registration Bot!\n\nStart earning by referring friends! Each successful referral earns you 250 ETB.",
+  "menu": {
+    "balance": "💰 Balance",
+    "referrals": "👥 My Referrals",
+    "leaderboard": "🏆 Leaderboard", 
+    "withdraw": "💸 Withdraw",
+    "settings": "⚙️ Settings",
+    "admin": "🔧 Admin"
+  },
+  "balance": {
+    "title": "💰 Your Balance",
+    "total_earned": "Total Earned",
+    "total_withdrawn": "Total Withdrawn",
+    "available": "Available Balance",
+    "paid_referrals": "Paid Referrals",
+    "unpaid_referrals": "Unpaid Referrals",
+    "withdrawal_eligible": "🎉 You are eligible for withdrawal!",
+    "withdrawal_not_eligible": "❌ Need {needed} more paid referrals to withdraw"
+  },
+  "errors": {
+    "access_denied": "❌ Access denied.",
+    "maintenance": "🚧 Bot is under maintenance.",
+    "feature_disabled": "❌ This feature is currently disabled.",
+    "user_blocked": "❌ Your account has been blocked."
+  }
+}
