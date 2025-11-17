@@ -5,8 +5,7 @@
   "main": "api/bot.js",
   "scripts": {
     "dev": "nodemon api/bot.js",
-    "start": "node api/bot.js",
-    "setup": "node scripts/setup.js"
+    "start": "node api/bot.js"
   },
   "dependencies": {
     "telegraf": "^4.16.3",
